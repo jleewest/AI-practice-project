@@ -4,35 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Assistant</title>
+    <title>AI Storyteller</title>
   </head>
-  <body>
-    <header>
-      <h1>Welcome to AI Short Story Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic you want to create a short story about"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Response here</div>
-    </main>
-    <footer>
-      <a
-        href="https://github.com/jleewest/AI-practice-project.git"
-        target="_blank"
-        class="code-link"
-        rel="noreferrer"
-      >
-        Open source code </a
-      >by Jenna Westendorf
-    </footer>
+  <body class="container">
+    <div>
+      <header>
+        <h1>Welcome to AI Storyteller</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="What do you want to hear a story about?"
+            autofocus
+            required
+            autocomplete="off"
+            class="story-instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="story">Response here</div>
+      </main>
+      <footer>
+        <a
+          href="https://github.com/jleewest/AI-practice-project.git"
+          target="_blank"
+          class="code-link"
+          rel="noreferrer"
+        >
+          Open source code </a
+        >by Jenna Westendorf
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
