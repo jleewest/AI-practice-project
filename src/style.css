@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+
+.code-link {
+  font-weight: 800;
+  text-decoration: none;
+}
