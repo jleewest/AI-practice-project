@@ -6,6 +6,9 @@
 
 body {
   background-color: #f9f7fe;
+  background-image: url(../src/img/books.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
 
