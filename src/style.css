@@ -46,7 +46,7 @@ form {
   font-size: 16px;
 }
 
-.submit-button {
+.button {
   background-color: #885df1;
   color: white;
   border: none;
@@ -54,6 +54,10 @@ form {
   margin-left: 10px;
   padding: 14px 24px;
   width: 150px;
+}
+
+.button:hover {
+  border: 2px solid #272044;
 }
 
 .story {

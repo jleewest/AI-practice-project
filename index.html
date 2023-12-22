@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script
+      src="https://kit.fontawesome.com/7ee097acc7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.js"
       integrity="sha512-yyr/AZnf9KbRjIKQpglQyZeyz2sOJCa0bcAt+qBnY/jfatfojXGz3eymOoZisKcIv9P49K/PzSJwdL5dwOfgGQ=="
       crossorigin="anonymous"
@@ -28,9 +32,14 @@
             autocomplete="off"
             class="story-instructions"
           />
-          <input type="submit" class="submit-button" />
+          <input type="submit" class="button" />
         </form>
-        <div class="story hidden" id="story"></div>
+        <div class="story hidden">
+          <div id="story"></div>
+          <button class="button hidden" id="read-button">
+            <i class="fa-solid fa-volume-high" style="color: #ffffff"></i>
+          </button>
+        </div>
       </main>
       <footer>
         <a
